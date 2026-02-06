@@ -19,17 +19,25 @@ Aprofundando o *web scraping* com o uso de tags
 - **coleta_dados_api.py:**
 Utilização de api para enviar e baixar arquivos através de métodos *POST* e *GET*
 
-- **coleta_dados_api_google.py**
+- **coleta_dados_api_google.py:**
 Utilização da api do google para fazer a tarefa de enviar e baixar aquivos,
 uma vez que o site referenciado na aula não permitia esta tarefa
 
-- **quickstart.py**
+- **quickstart.py:**
 Arquivo de exemplo cedido pela documentação do google workspace para a 
 execução da API
 
 - **produto_informatica.csv e arquivo_recuperado.csv:**
 São os arquivo utilizados para envio e recuperação
-através da execução do script **coleta_dados_api_google.py**
+através da execução do script "coleta_dados_api_google.py"
+
+- **coleta_dados_outros.py:**
+Script voltado para o estudo do uso de conexão com MySQL, uso de data frame e 
+conversão de formato de arquivos.
+
+- **dados.xlsx, dados.csv e dados.json:**
+Arquivos gerados através da execução do script "coleta_dados_outros.py" com base
+nos arquivos de um banco de dados criado no módulo de MySQL do curso 
 
 ### Sobre a API do Google
 Para o projeto funcionar, é necessário conectar o aplicativo com um projeto
