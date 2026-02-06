@@ -1,5 +1,5 @@
 # Coleta de dados
-Foram utilizados métodos de web scraping e pandas. Ao avançar no módulo houve
+Nas primeiras aulas foram utilizados métodos de web scraping e pandas. Ao avançar no módulo houve
 uma divergência entre comportamento do site apresentado com sua a atual
 implementação, o que impediu seguir exatamente como executado na aula.
 
@@ -7,6 +7,11 @@ Essa divergência fez com que este projeto incorporasse uma api mais estável e
 profissional como a do Google. Foi criada então uma integração com a api do
 Google Drive capaz de enviar um arquivo para o Drive e baixá-lo em seguida
 através da ID gerada no envio.
+
+Ao final deste módulo foi possível entender como interagir com dados externos
+(sejam vindos de uma página da web, recuperados por meio de uma API ou obtidos
+diretamente de um banco de dados) e utilizá-los para criação de documentos 
+em diferentes formatos.
 
 ### Explicação dos arquivos presentes nesta pasta
 - **coleta_dados_basica.py:**
@@ -38,6 +43,11 @@ conversão de formato de arquivos.
 - **dados.xlsx, dados.csv e dados.json:**
 Arquivos gerados através da execução do script "coleta_dados_outros.py" com base
 nos arquivos de um banco de dados criado no módulo de MySQL do curso 
+
+- **gerar_dados.py:**
+Script que explica a utilização da biblioteca "faker", responsável por gerar dados
+aleatórios que podem ser utilizados para testar uma aplicação antes de receber
+dados reais, por exemplo.
 
 ### Sobre a API do Google
 Para o projeto funcionar, é necessário conectar o aplicativo com um projeto
