@@ -46,3 +46,6 @@ df['nome'] = df['nome'].apply(lambda x: 'Nome inválido' if isinstance(x, str) a
 print('Quantidade de registros com nomes grandes:', (df['nome'] == 'Nome inválido').sum())
 
 print('Dados com Outliers tratados:\n', df.head(),'\n', df.tail())
+
+# Salvar dataframe
+df.to_csv('clientes_remove_outliers.csv', index=False)
