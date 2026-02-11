@@ -13,6 +13,9 @@ funções da biblioteca ***sklearn***:
   na média em torno de 0 e o desvio padrão em torno de 1;
   - RobustScaler: Padroniza os dados com base no IQR com foco em Mediana
   e interquartis, sendo robusto a outliers
+- **codificacao_variaveis_categoricas.py:**
+Voltado para a transformação de variáveis categóricas em variáveis numéricas
+para uso posterior em análises estatísticas e no uso de IA (machine learning)
 - **clientes-v2.csv:**
 Arquivo base para ser utilização no módulo
 - **clientes-v2-tratados:**
