@@ -5,6 +5,14 @@
 - **intro_preparacao_dados.py:**
 Script de introdução ao módulo, voltado para entender o comportamento
 dos dados e prepará-los para manipulação, removendo dados sensíveis.
+- **normalizacao_padronizacao.py:**
+Script que aborda métodos de normalização e padronização através de 
+funções da biblioteca ***sklearn***: 
+  - MinMaxScaler: Normaliza os dados entre valores 0 e 1 ou -1 e 1;
+  - StandardScaler: Padroniza os dados com base no Z-score, tendo foco
+  na média em torno de 0 e o desvio padrão em torno de 1;
+  - RobustScaler: Padroniza os dados com base no IQR com foco em Mediana
+  e interquartis, sendo robusto a outliers
 - **clientes-v2.csv:**
 Arquivo base para ser utilização no módulo
 - **clientes-v2-tratados:**
