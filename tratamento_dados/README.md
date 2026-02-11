@@ -1,4 +1,8 @@
 # Tratamento de dados
+O tratamento de dados envolve a limpeza, correção e padronização dos dados
+para remover erros e inconsistências. É uma etapa essencial para garantir
+a qualidade e a precisão das análises e modelos preditivos, permitindo que
+as conclusões derivadas sejam confiáveis.
 
 ## Explicação dos arquivos presentes nesta pasta
 - **intro_tratamento_dados.py:** Script da aula introdutória ao tratamento
