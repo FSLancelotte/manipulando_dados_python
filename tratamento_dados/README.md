@@ -12,10 +12,19 @@ a alteração de dados para normalização.
 discrepantes na amostra (muito menor ou maior que os outros). Os outliers
 podem ser prejudiciais no momento da análise dos dados, contaminando as
 informações. Os dois métodos principais utilizados foram o Z-score e o IQR.
+- **inconsistencias.py:** Script voltado para tratar erros nos dados que não
+foram tratados na limpeza ou na remoção dos outliers. Reconhecer inconsistências,
+como formatos de datas incorretas e categorias não padronizadas. Uso de 
+funções lambda para mascarar dados sensíveis e correção de formatos de
+texto.
 - **clientes.csv:** Lista de dados de clientes fictícios, 
 utilizada para estudo
 - **clientes_limpeza.csv:** Lista de dados de clientes fictícios gerada após 
 o tratamento de dados no script *"limpeza_dados.py"*
+- **clientes_remove_outliers.csv:** Arquivo gerado após a remoção dos dados
+considerados outliers após a etapa de limpeza de dados.
+- **clientes_tratados.csv:** Arquivo csv gerado após o tratamento de inconsistências
+no arquivo *"inconsistencias.py"*
 
 ## Z-score vs IQR
 O Z-Score mede quantos desvios padrões um ponto está da média, enquanto o 
