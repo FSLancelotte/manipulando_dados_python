@@ -8,6 +8,8 @@ bibliotecas *"matplotlib"* e *"seaborn"* para plotar gráficos
 - **uso_matplotlib.py:**
 Estudo voltado na biblioteca matplotlib, realizando a plotagem de gráficos
 de barras, pizza e dispersão
+- **uso_seaborn.py:**
+Estudo voltado na biblioteca seaborn, realizando a plotagem de gráficos
 - **clientes-v3-preparados.csv:**
 Arquivo csv que contém os dados a serem utilizados para geração de gráficos
 nos scripts python
