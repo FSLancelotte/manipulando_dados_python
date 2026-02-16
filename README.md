@@ -14,6 +14,14 @@ Este repositório tem como intuito organizar e documentar o estudo dos módulos 
   - Transformação e categorização de dados para facilitar análises futuras
   - Padronização e Normalização
   - Codificação de Variáveis Categóricas
+- **matematica_estatistica:**
+  - Uso de estatística descritiva (como média, mediana, variância e desvio padrão) para realização de análises
+  - Correlação de dados, força e direção da correlação de variáveis através da correlação de Pearson e Spearman para análise de dados
+  - Modelagem estatística com uso de técnicas de regressão linear e modelos de classificação como Regressão Logística e Árvore de Decisão
+- **visualizacao_dados:**
+  - Uso de matplotlib e seaborn para criação de gráficos
+  - Configuração de parâmetros como tamanho da figura, cor, transparência, títulos e rótulos
+  - Uso do seaborn para simplificar a identificação de tendências nos dados
  
   ## Lidando com outliers no Tratamento vs Preparação 
   Ambos os processos lidam com outliers mas com um viés diferente.
