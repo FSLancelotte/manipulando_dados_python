@@ -73,7 +73,8 @@ torno de dois valores: R\$68,37 e R\$143,03.
 Este gráfico é utilizado para entender a tendência do comportamento de duas
 variáveis do conjunto de dados. Aqui foi utilizado o gráfico de regressão 
 para analisar a correlação entre desconto e nota. É possível notar que há
-uma correlação positiva, o que significa que descontos maiores tendem a trazer
-avaliações melhores
+uma correlação positiva, o que significa que descontos maiores ajudam a trazer
+avaliações melhores, no entanto, por conta de uma certa disperção nos dados,
+os descontos não são o único fator que leva a uma boa avaliação.
 
 ![regressao_avaliacao_desconto.png](regressao_avaliacao_desconto.png)
