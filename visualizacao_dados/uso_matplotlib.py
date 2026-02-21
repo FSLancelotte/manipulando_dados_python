@@ -28,7 +28,7 @@ plt.title('Distribuição de Nível de Educação')
 plt.show()
 
 # Gráfico de Dispersão
-plt.hexbin(df['idade'], df['salario'], gridSize=40, cmap='Blues')
+plt.hexbin(df['idade'], df['salario'], gridsize=40, cmap='Blues')
 plt.colorbar(label='Contagem dentro do bin')
 plt.xlabel('Idade')
 plt.ylabel('Salário')
