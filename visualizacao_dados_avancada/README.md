@@ -8,5 +8,7 @@ exibição de gráficos
 - **graficos_avancados.py:**
 Script para exemplificar a exibição de múltiplos gráficos no dashboard, assim como
 a organização do código em diferentes partes para melhor manutenção e escalabilidade
+- **visualizacoes_interativas.py:**
+Uso de checklist html para seleção de filtro nos gráficos de maneira interativa
 - **clientes-v3-preparado.csv:**
 Arquivo CSV contendo os dados de exemplo utilizados na criação de gráficos
